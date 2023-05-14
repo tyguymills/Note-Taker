@@ -5,8 +5,31 @@ body {
   padding: 0;
 }
 
+.hero-title {
+  font-weight: 900;
+  font-size: 3rem;
+}
+
 .save-note {
   display: none;
+}
+
+.deleteBtn {
+  background-color:red;
+  border-radius:5px;
+  border:1px solid #000000;
+  color:black;
+}
+.deleteBtn:hover {
+  background-color:white;
+  z-index:20000;
+}
+
+li {
+  border-bottom: 1px solid #757575;
+  padding:3px 0px 3px 10px;
+  font-size:1rem;
+  font-weight: bold;
 }
 
 .icons i {
@@ -61,8 +84,8 @@ body {
 }
 
 .list-item-title {
-  display: inline-block;
-  width: 75%;
+  /* display: inline-block; */
+  /* width: 75%; */
 }
 
 .list-container i {
