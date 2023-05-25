@@ -42,14 +42,14 @@
                         name="noteTitle"
                         class="note-title"
                         id="titleField"
-                        onkeypress="checkText()"
+                        onkeyup="checkText()"
                         placeholder="Note Title"
                         maxlength="28"
                         type="text"
                         value=<%=locals.title%>
                         
                     >
-                    <textarea id="textField" onkeypress="checkText()" class="note-textarea" name="noteText" placeholder="Note Text"><%=locals.text%></textarea>
+                    <textarea id="textField" onkeyup="checkText()" class="note-textarea" name="noteText" placeholder="Note Text"><%=locals.text%></textarea>
                     
             </div>
       </div>
